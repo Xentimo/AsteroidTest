@@ -1,0 +1,34 @@
+{
+  "asteroid": {
+    "min_asteriod_count": 3,
+    "start_asteriod_count": 10,
+    "min_verts_count": 10,
+    "max_verts_count": 16,
+    "min_distance": 9,
+    "max_distance": 12,
+    "min_speed": 0.3,
+    "max_speed": 0.8,
+    "min_center_dir_delta_grad": 0,
+    "max_center_dir_delta_grad": 0,
+    "radius_min": 0.5,
+    "radius_max": 1,
+    "fragments_count": 4
+  },
+  "player": {
+    "collider_radius" : 0.5,
+    "max_lazers_count": 5,
+    "lazer_recharge_speed": 0.1
+  },
+  "enemies": {
+    "collider_radius" : 0.35,
+    "max_enemies" : 1,
+    "min_speed": 0.3,
+    "max_speed": 0.8,
+    "min_distance": 4,
+    "max_distance": 6,
+    "cooldown": 12,
+    "shoot_cooldown": 7,
+    "shoot_angle": 3,
+    "shoot_distance" : 4
+  }
+}
